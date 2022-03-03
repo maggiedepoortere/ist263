@@ -1,0 +1,5 @@
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h1, h2, h3, caption, th {color:rgb(112, 7, 47)}
+.evenrow {background-color: rgb(250, 207, 213);}
+h1, caption {font-size: 2em;}
+h2 {font-size: 1.5;}
