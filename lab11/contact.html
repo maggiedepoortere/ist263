@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .row1, .row2 {display: flex;}
+            .row1, div {flex: 1;}
+            .column1 {margin: 10px;}
+            .column2 {float: right; margin: 10px;}
+            .row1 .row2 {display: flex; padding: 20px;} 
+            .row1 {flex: 2; background-color: #ffdffa;border-radius: 1em; margin: 30px;}
+            .row2 {flex: 1; background-color: #ffdffa;border-radius: 1em;margin:30px}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="#content" id="skip">Skip to Content</a>
+            <a href="index.html">Home</a> <span class="nav">&#124;</span> 
+            <a href="skills.html">Skills</a> <span class="nav">&#124;</span> 
+            <a href="contact.html">Contact</a>
+        </nav>
+
+            <h1>Contact</h1>
+    <section id="content">
+        <div class="row1">
+            <div class="column1"><h2>Address</h2>
+                Maggie de Poortere<br>
+                832 Ackerman Ave<br>
+                Syracuse, NY 13210<br>
+            </div>
+            <div class="column2">
+                <p>
+                </p>
+                <a href="mailto:mmdepoor@syr.edu">Email</a><br>
+                <a href="http://www.linkedin.com/in/maggiedepoortere" target="_blank">LinkedIn</a><br>
+                <a href="http://www.linkedin.com/in/maggiedepoortere" target="_blank"><img src="../images/logo-sized.png" alt="LinkedIn Logo"></a><br>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row2">
+            <div class="column1"><h2>Who are you?</h2>
+                <form action="https://formspree.io/f/mpzbdlwz" method="post">
+                <p><label for="fullname"><strong>Full Name:</strong></label><br>
+                <input type="text" id="fullname" name="fullname"></p>
+        
+                <p><strong> What's your favorite color?</strong><br>
+                <label for="ygreen">green</label>
+                <input type="radio" id="ygreen" name="color">
+                <label for="ngreen">not green</label>
+                <input type="radio" id="ngreen" name="color"></p>
+                
+                
+                <label for="foundsite"><strong>How did you find this site?</strong></label><br>
+                <textarea name="foundsite" id="foundsite"></textarea><br>
+        
+                <p><input type="submit" value="send to me"></p>
+        
+                </form></div>
+                <div class="stopfloating"></div>
+                <iframe class="column2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11665.115466910831!2d-76.13327670253216!3d43.035563767988954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f373c1744afb%3A0xfea3d4d621c35b14!2s832%20Ackerman%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644511970154!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+</body>
+    
+    
+
+    
+</html>

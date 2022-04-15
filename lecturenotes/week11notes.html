@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        1. HTML link to anchor to our content area (has a pound sign at start of the name of where you're linking)
+        2. Put an id attribute into the place you want the anchor to go
+        3. hide and show skip to content
+        4. Style the skip to content link
+        */
+
+    #skip {
+        position: absolute; /* absolute means take it out of the page flow, use left to set position */
+        left: -999px;
+        background-color: rgb(143, 192, 143);}
+    #skip:focus {
+        left:10px;
+    }
+    .welcome {display: flex; 
+justify-content: center;}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="welcome"> Hello World</div>
+    <nav>
+        <a href="#content" id="skip">Skip to Content</a>
+        <a href="http://www.twitter.com"  tabindex="4">Twitter</a>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+    </nav>
+    <main>
+        <h1>Accessibility</h1>
+            <h2>Semantic Tags</h2>
+                <h3>Aside</h3>
+                <h3>Nav</h3>
+                <h3>Footer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error accusamus sed, optio, rerum culpa temporibus atque est perspiciatis excepturi magnam ratione. Atque rerum nemo quos hic quam cum corrupti nostrum.</p>
+            <h2>Heading Tags in Hierarchy</h2>
+
+    
+
+    </main>
+
+    <footer id="content"><p>"Be creative and I guarantee you will be successful"- Joey Civico</p></footer>
+
+</body>
+</html>

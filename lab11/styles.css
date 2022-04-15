@@ -1,0 +1,24 @@
+nav {background-color: #F2B3BF;
+    color: #5a0831;}
+nav a:hover {background-color: #8BD9CA;}
+nav {padding: 10px;
+    margin-bottom: 30px;}
+p {color: #383236;}
+h1, h2, h3, caption, th {color:#5a0831;}
+h2 {font-size: 1.5;}
+h1, caption {font-size: 2em;}
+body {background-color: #F2F2F2;}
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.foot {float: right;}
+.column2 {float: right;}
+.banner {max-width: 100%;}
+.row2 {display: flex;
+    flex-wrap: wrap;}
+@media only screen and (max-width:600px){
+    nav a {max-width: 100%;display: block;padding: 10px;}
+    span {display: none;}}
+#skip {position: absolute; 
+        left: -999px;
+        background-color: rgb(143, 192, 143);}
+
+#skip:focus {left:10px;}
