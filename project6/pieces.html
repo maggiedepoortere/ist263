@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio dePo</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="shortcut icon" type="image/x-icon" href="images/apple-touch-icon.png">
+    <script>
+        function change () {
+            document.getElementById("rollover").setAttribute('src' , 'https://laferger.github.io/ist263/images/arrow_over.PNG');
+        }
+        function changeBack () {
+            document.getElementById("rollover").setAttribute('src' , 'https://laferger.github.io/ist263/images/arrow.PNG');
+        }
+       
+        function toggleNav () {
+            if (document.getElementById("header").style.getPropertyValue("display") == 'block'){
+                document.getElementById("header").style.display = "none";
+            } else {
+                document.getElementById("header").style.display = "block";
+            }}
+   
+    </script>
+</head>    
 <body>
-        
+    <img src="images/menu (1).png" id="hamicon" onclick="toggleNav();"><br>
 
-        <nav class="header"> 
-            John Michael de Poortere - Artist. Creative. Writer.
+
+        <nav class="header" id="header"> 
+            <span id="intro">John Michael de Poortere - Artist. Creative. Writer.</span>
             <a href="personal.html">Personal</a> <span class="nav">&#124;</span> 
             <a href="pieces.html">Pieces</a> <span class="nav">&#124;</span> 
             <a href="process.html">Process</a>

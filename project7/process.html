@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio dePo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/apple-touch-icon.png">
+    <script>
+        function toggleNav () {
+            if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block'){
+                document.getElementById("navlinks").style.display = "none";
+            } else {
+                document.getElementById("navlinks").style.display = "block";}
+            }
+    </script>
+    <style>
+        img {float: left;
+            width:  300px;
+            height: 400px;
+            object-fit: cover;}
+        .stopfloating {clear: both;}
+        .thumbnail {width: 300px;height: 300px;}
+        .subheadings{justify-content: left;}
+        .thumbnail:hover {width: 500px;height: 600px;}
+    </style>
+</head>
+<body>
+    <h1>John Michael de Poortere - Artist. Creative. Writer.</h1> 
+    <img src="images/menu (1).png" id="hamicon" onclick="toggleNav();"><br>
+    <nav id="navlinks">
+        <a href="#content" id="skip">Skip to Content</a>
+        <a href="pieces.html">Pieces</a> <span class="nav">&#124;</span> 
+        <a href="process.html">Process</a> <span class="nav">&#124;</span> 
+        <a href="personal.html">Personal</a>
+    </nav>
+    
+
+<section id="content">
+    <h2>Process</h2><br>
+    <h3>Pequod 2020</h3><br>
+    <div class="container">
+       <div><img  src="images/process_pequod1.jpeg" alt="dePo with Pequod 2020">
+        <h3 class="subheadings">Making the Piece</h3>
+        <p>
+            This painting is the largest I’ve done at 48’x60’. The canvas is covered in pages cut from my own childhood copies of both Moby Dick and Gray’s Anatomy (yes, the book). I covered this large canvas with layers of pages in various orientations. Using various shades of slightly diluted blue and green paint I added depth and color to the piece. At the bottom of the canvas you can see 30 stick figure individuals lined up shoulder to shoulder in black ink. The center of the piece is a three dimensional whale sculpted out of plaster atop the canvas. The whale is outlined with thin black paint and takes up much of the large canvas.
+        </p>
+        <h3 class="subheadings">Meaning of the Piece</h3>
+        <p>
+            Through meticulously selecting individual pages from both Grey’s Anatomy and Moby Dick, as well as newsprint from 2020, Pequod 2020 calls reference to the pandemic and it’s effects on American society. The frayed and decayed nature of the mixed media piece calls to memory the unrest of the past two years. 
+        </p> 
+        <p>
+            Throughout the work, allusions to Melville’s quintessential American novel are littered haphazardly, often prehistoric in their nature. While the piece itself is nearly entirely a shade of blue, the text remains visible beneath the hue. In attempting to read the print amidst the chaos, one may feel as though they are drowning in a sea of headlines, medical jargon, and outdated English.
+        </p>
+        <p>
+            The reference to Melville’s Moby Dick is an attempt to reflect on America’s troubled racial history. The whiteness of the monstrous whale that plagued the Pequod and her crew was an attempt at the time to call into question the racial injustice of the mid 19th century. Themes of injustice run throughout the newsprint as well, with headlines referencing disparities in healthcare access throughout the pandemic.
+        </p>
+        <div class="stopfloating"></div>
+        <div>
+            <img  class="thumbnail" src="images/process_pequod5.jpeg" alt="Process of Pequod 2020">
+
+            <img  class="thumbnail" src="images/process_pequod4.JPG" alt="Process of Pequod 2020">
+           
+            <img  class="thumbnail" src="images/process_pequod6.jpeg" alt="Process of Pequod 2020">
+    
+            <img  class="thumbnail" src="images/pequod2020.JPEG" alt="Process of Pequod 2020">
+        </div>
+       
+
+        </div>
+      
+        
+        
+    </div>
+    
+</section>
+    
+    
+    <nav class="footer"> 
+    <a href="personal.html">Personal</a> <span class="nav">&#124;</span> 
+    <a href="pieces.html">Pieces</a> <span class="nav">&#124;</span> 
+    <a href="process.html">Process</a>
+    </nav>  
+
+</body>
+</html>

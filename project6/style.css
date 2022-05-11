@@ -20,7 +20,15 @@ img {
 body {font-family: Verdana, Geneva, Tahoma, sans-serif}
 nav a, nav span{display: flex; float: right;justify-content:space-around}
 @media only screen and (max-width:600px){
-        .header a {max-width: 100%;display: block;float: left;padding: 10px;justify-content:space-around}
-        .nav {display: none;}}
-        
+            #hamicon {display: block;}
+            .header a {display: block;}
+            .header {display: none;}
+            #intro {display: none;}
+            nav a {display: block;}}
+#hamicon {
+    height: 60px;
+    width: 60px;
+    display: none;}
+@media only screen and (max-width:600px) {
+    #hamicon {display: block;}}
         

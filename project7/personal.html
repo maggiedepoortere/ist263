@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio dePo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleNav () {
+            if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block'){
+                document.getElementById("navlinks").style.display = "none";
+            } else {
+                document.getElementById("navlinks").style.display = "block";}
+            }
+    </script>
+    <style>
+        .subheadings{justify-content: left;}
+        .intro {float: left;}
+        .second {float: right;}
+        .stopfloating {clear: both;}
+    </style>
+</head>
+<body>
+    <h1>John Michael de Poortere - Artist. Creative. Writer.</h1> 
+    <img src="images/menu (1).png" id="hamicon" onclick="toggleNav();"><br>
+    <nav id="navlinks">
+        <a href="#content" id="skip">Skip to Content</a>
+        <a href="pieces.html">Pieces</a> <span class="nav">&#124;</span> 
+        <a href="process.html">Process</a> <span class="nav">&#124;</span> 
+        <a href="personal.html">Personal</a>
+    </nav>
+    <section id="content">
+        <img class="intro" src="images/aboutme_1.jpg" alt="dePo with pieces"><br>
+        
+        <h3 class="subheadings">Who is dePo</h3>
+
+        <p>He is an independent painter and poet from New Jersey, his work uses texture, color, and abstraction across various mediums. He attended Providence College, graduating in 2020 with a degree in Political Science. John’s education in history, philosophy, and literature is evidenced throughout his varied body of work.</p>
+
+        <p>During his senior year of college he took a painting course where he experimented with new forms of painting and pushed his natural ability for creativity and art. He began to share his work on an Instagram account, originally called depo_do_be_arting. The work was mostly smaller scale paintings and sketches.</p>
+
+        <p><strong>“I refuse to limit the mediums of my expression. I am constantly seeking ways to challenge my creativity” - JMD</strong></p>
+        
+        <div class="stopfloating"></div>
+
+        <img class="second" src="images/aboutme_2.jpeg" alt="dePo in the Studio"><br>
+
+        <h3 class="subheadings">Beginning of Studio dePo</h3>
+
+        <p>John was then commissioned to make a larger scale collage piece for his close relative. This piece titled, HOPE, became a turning point in his art. This piece sparked his passion and drove him to devote more time and resources into his art.</p>
+
+        <p>By using any materials he could get his hands on, thrifted framed images and old store window canvases, he continued to make brightly colored and textured pieces of art. Soon he was running out of room to store his work and as the weather got colder he lacked a space indoors to create. John was elated to be offered space in his aunt’s garage to store his work and paint in the cold. This garage is where Studio dePo was born. John decided to rename his Instagram and enlisted his younger sister as a pseudo gallery assistant for website and photography aid.</p>
+
+            
+        <p>Working part-time at a local florist and liquor store, John offered his time to a gallery in Asbury Park, NJ. This eventually turned into a paid position where he learned about the inner workings of galleries and artist relations. During the Fall of 2021, John had two of his original works featured in the Oceana show for Parlor Gallery.</p>    
+           
+        <p>Today, he continues to create art, expanding his portfolio with digital art creations and a new “studio” space in another aunt’s barn. John loves creating art and pushing himself to make bigger and more thought provoking pieces.</p>
+        
+        <div class="stopfloating"></div>
+</section>
+        <nav> <a href="personal.html">Personal</a> <span class="nav">&#124;</span> 
+        <a href="pieces.html">Pieces</a> <span class="nav">&#124;</span> 
+        <a href="process.html">Process</a></nav>
+</body>
+</html>
